@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -112,13 +120,9 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
-    height: 100%;
-    width: 100%;
+    background: url(../img/background.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed; }
+    background-size: cover; }
     body#bg-img:after {
       content: ' ';
       position: absolute;
