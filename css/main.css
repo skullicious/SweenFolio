@@ -114,11 +114,10 @@ body {
   body#bg-img {
     background: url(../img/background.jpg) no-repeat center center fixed;
     background-attachment: fixed;
-    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 100vh; }
+    background-size: cover; }
     body#bg-img:after {
       content: ' ';
       position: absolute;
