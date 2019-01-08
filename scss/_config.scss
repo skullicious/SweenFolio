@@ -18,12 +18,12 @@ $background-opacity: 0.1;
         &#bg-img {
 
             background: $home-image no-repeat center center fixed;
-            background-attachment: fixed;          
+               
 
          
             background-size: cover;
 
-
+            background-attachment: fixed;      
 
             
             &:after {
