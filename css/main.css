@@ -114,7 +114,10 @@ body {
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; }
     body#bg-img:after {
       content: ' ';
       position: absolute;
@@ -293,6 +296,4 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; }
-  .bg-img {
-    height: 100vh; } }
+    grid-template-columns: 1fr; } }
