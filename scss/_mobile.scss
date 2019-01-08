@@ -117,13 +117,24 @@
    main#home h1 {
   
       margin-top: 10vh;
+
+     
+
    }
    
+
+   body#bg-img {
+
+      min-height: 100%
+
+   }
+
+
    .projects {
   
      grid-template-columns: 1fr;
    }
       
- 
+   
 
 }
