@@ -17,13 +17,22 @@ $background-opacity: 0.1;
 
         &#bg-img {
 
-            background: $home-image no-repeat center center fixed;
-               
+            // background: $home-image no-repeat center center fixed;
+
+             // background-size: cover;
+
+              // background-size: cover;
+
+               background: $home-image;
+               height:100%;
+               width:100%;
+               background-size:cover;
+               background-repeat:no-repeat;
+               background-position: center center;
+               background-attachment:fixed;
 
          
-            background-size: cover;
-
-            background-attachment: fixed;      
+           
 
             
             &:after {
