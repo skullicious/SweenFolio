@@ -112,12 +112,14 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../img/background.jpg) no-repeat center center fixed;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; }
+    -o-background-size: cover;
+    height: 100%;
+    overflow: hidden; }
     body#bg-img:after {
       content: ' ';
       position: absolute;
