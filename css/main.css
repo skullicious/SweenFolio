@@ -117,9 +117,7 @@ body {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 100%;
-    overflow: hidden; }
+    -o-background-size: cover; }
     body#bg-img:after {
       content: ' ';
       position: absolute;
